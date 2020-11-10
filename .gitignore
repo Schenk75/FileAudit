@@ -1,0 +1,10 @@
+*.db
+*.ko
+*.mod
+*.symvers
+*.sqlite3
+*.o*
+
+__pycache__
+node_modules
+migrations
