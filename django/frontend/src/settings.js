@@ -1,6 +1,6 @@
 module.exports = {
 
-  title: 'Vue Admin Template',
+  title: '系统级资源访问审计',
 
   /**
    * @type {boolean} true | false

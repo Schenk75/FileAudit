@@ -1,16 +1,16 @@
 import request from '@/utils/request-test'
 
-export function getList(query) {
+export function getList(table, query) {
   return request({
-    url: '/table/open',
+    url: '/table/' + table,
     method: 'get',
     params: query
   })
 }
 
-export function deleteRecord(query) {
+export function deleteRecord(table, query) {
   return request({
-    url: '/table/open_delete',
+    url: '/table/' + table,
     method: 'get',
     params: query
   })

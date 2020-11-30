@@ -11,6 +11,10 @@
 ```bash
 aptitude install sqlite3
 aptitude install libsqlite3-dev
+# or
+apt install libsqlite3-0=3.22.0-1ubuntu0.4
+apt install sqlite3
+apt install libsqlite3-dev
 ```
 
 ## Build Kernel Module
